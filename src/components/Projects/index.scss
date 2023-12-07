@@ -104,7 +104,7 @@
           width: 124px;
         }
       
-        .logo-container {
+        .proj-container {
           position: relative;
           width: 400px;
           height: auto;
@@ -128,7 +128,7 @@
   }
   
 
-  .logo-container {
+  .proj-container {
     width: 600px;
     height: 800px;
     position: absolute;
@@ -155,14 +155,20 @@
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 10px;
+  gap: 15px;
   justify-content: center;
+}
+
+.project-item:hover {
+  box-shadow: 0 8px 8px 8px #FB48C4;
+  transform: scale(1.05);
 }
 
 .project-item {
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .project-item img {
@@ -170,5 +176,16 @@
   height: auto;
   display: block;
   border-radius: 8px;
+  transition: opacity 0.3s ease;
 }
 
+
+p{
+  font-size: 1.5em;
+}
+
+.intern_1{
+  font-size: 1.5em;
+  color:#444;
+font-weight: bold;
+}

@@ -3,14 +3,13 @@ import { useEffect, useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetter'
 import pic from '../../assets/images/Charan_pinkbg.jpeg'
-// import { MapContainer, Marker, TileLayer,Popup } from 'react-leaflet'
 import './index.scss'
 
 
 const Contact = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate')
-    const Form = useRef ()
+    const Form = useRef ();
 
     useEffect (() => {
          setTimeout(() => {
@@ -18,33 +17,22 @@ const Contact = () => {
         }, 3000)
         }, [])
 
-
-
+        //email
 
         const sendEmail = (e) => {
           e.preventDefault();
       
-          emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', Form.current, 'YOUR_PUBLIC_KEY')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-        };
-        // const sendEmail = (e) => {
-        //   e.preventDefault();
-      
-        //   emailjs.sendForm('service_5ppwj4s', 'template_1oj0z9b', Form.current, 'iS6TZ2B2KSqmqAItc')
-        //     .then(
-        //       () => {
-        //         alert('Message successfully sent!')
-        //         window.location.reload(false)
-        //       },
-        //       () => {
-        //         alert('Failed to send the message, please try again')
-        //       }
-        //     )
-        //     }
+          emailjs.sendForm('service_18kx9sl', 'template_opfya5s', Form.current, 'VC2LCKuIU58joadga')
+            .then(
+              () => {
+                alert('Message successfully sent!')
+                window.location.reload(false)
+              },
+              () => {
+                alert('Failed to send the message, please try again')
+              }
+            )
+            }
     
     return (
         <>
@@ -59,8 +47,7 @@ const Contact = () => {
     </h1>
     <p>
     I'm very ambitious fullstack developer  looking for a role in
-        established IT company with the opportunity  because i'm still berozbar unemployed is any recruitor read this kindly contact with me to work with the latest
-        technologies on challenging and diverse projects.
+        established IT company with the opportunity.
     </p>
     <div className="contact-form">
 <form ref={Form} onSubmit={sendEmail}>
@@ -91,7 +78,7 @@ required
 </div>
 </div>
 
-<div className="logo-container">
+<div className="img-container">
       <img
         className="solid-logo"
         src={pic}
@@ -99,29 +86,7 @@ required
       />
       </div>
       </div>
-
-{/* <div className="info-map">
-          Charan Poojary,
-          <br />
-          India,
-          <br />
-         Udupi<br />
-         Karnataka <br />
-          <br />
-          <span>charanhejamady101@gmail.com</span>
-        </div>
-        <div  className='map-wrap'>
-        <MapContainer center={[13.2603634, 74.7793422]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[13.2603634, 74.7793422]}>
-              <Popup>Charan lives here, come over for a cup of tea :</Popup>
-            </Marker>
-          </MapContainer>
-
-        </div>
-</div> */}
-
-<Loader type="semi-circle-spin" active={true} />
+<Loader type="ball-pulse" active={true} />
 
     </>
     )

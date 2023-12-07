@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetter';
 import Loader from 'react-loaders';
+import 'loaders.css/loaders.css';
 import LogoS from '../../assets/images/frontend_vector.svg'
 
 
@@ -66,7 +67,7 @@ const Home = () => {
       />
       </div>
         </div>
-        < Loader type="semi-circle-spin" active={true} />
+        < Loader type="ball-pulse" active={true} />
         </>
 
         );
