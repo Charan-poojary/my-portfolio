@@ -4,7 +4,7 @@ Welcome to the source code of my dazzling and interactive personal portfolio bui
 
 ## 🚀 Demo
 
-Dive into the live demo of my extraordinary portfolio [here](#your-demo-link).
+Dive into the live demo of my portfolio :  https://my-portfolio-ivory-sigma-26.vercel.app/.
 
 ## ✨ Features
 
@@ -26,7 +26,7 @@ Before you embark on this magical journey, ensure you have:
 1. 🧙‍♂️ **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/Charan-poojary/my-portfolio
 
 2. 🧙‍♂️ **Navigate to the Magical Realm:**
 

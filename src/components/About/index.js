@@ -37,7 +37,7 @@ const About = () => {
 <p>
 Let's build the future together! 🚀
 </p>
-<Link to="/contact" className='flat-button'>MY RESUME</Link>
+<Link to="https://drive.google.com/drive/folders/1_q1b2_LPeUsULL02TxN2bqvJwCvQ12GH?usp=sharing" className='flat-button'>MY RESUME</Link>
 </div>
          <div className="stage-cube-cont">
          <h1 className="tech-stack-heading"><AnimatedLetters
