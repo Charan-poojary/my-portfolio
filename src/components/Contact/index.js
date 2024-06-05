@@ -11,6 +11,11 @@ const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const Form = useRef ();
 
+    const user_id = process.env.REACT_APP_EMAILJS_USER_ID;
+    const template_id = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+    const service_id = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+
+
     useEffect (() => {
          setTimeout(() => {
         setLetterClass('text-animate-hover')
@@ -22,7 +27,7 @@ const Contact = () => {
         const sendEmail = (e) => {
           e.preventDefault();
       
-          emailjs.sendForm('service_18kx9sl', 'template_opfya5s', Form.current, 'VC2LCKuIU58joadga')
+          emailjs.sendForm(service_id, template_id, Form.current, user_id)
             .then(
               () => {
                 alert('Message successfully sent!')
