@@ -189,3 +189,24 @@ p{
   color:#444;
 font-weight: bold;
 }
+
+.project-item {
+  position: relative;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #28a745;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

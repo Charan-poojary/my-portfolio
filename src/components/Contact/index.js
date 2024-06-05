@@ -46,7 +46,7 @@ const Contact = () => {
     />
     </h1>
     <p>
-    I'm very ambitious fullstack developer  looking for a role in
+    I'm very ambitious fullstack developer looking for a role in
         established IT company with the opportunity.
     </p>
     <div className="contact-form">
