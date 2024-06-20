@@ -62,10 +62,12 @@ const Projects = () => {
 <b className='intern_1'>&#8226; SDE Intern, Access Control Project (ABB-ACS_Software) - ABB</b>
 </p>
 <p>
-During this internship, I had the opportunity to work on the Access Control Project at ABB, contributing to the development of software solutions. My role involved working with a talented team to enhance security and access control systems, ensuring efficient and reliable operations.
+Worked with the Terminal Automation Systems (TAS) team, initially learning how the team operates 
+and how databases are built and maintained for clients at ABB. Resolved client issues related to 
+existing databases, including query updates and manual updates in the database. 
 </p>
 <p>
-I gained hands-on experience with .NET Core, C#, React, and MS SQL Server, which were crucial in developing and maintaining robust and scalable software applications. This role allowed me to deepen my understanding of full-stack development and integrate modern technologies into practical solutions.
+Gained an understanding of Access Control Systems, including their integration into client environments and how devices communicate with databases for authentication and authorization. Also, learned to build a UI for Access Control Systems using ASP.NET Core, React, and MS SQL Server at ABB.
 </p>
 <br /> 
 <p>
