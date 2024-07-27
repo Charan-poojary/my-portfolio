@@ -59,27 +59,31 @@ const Projects = () => {
 </h1>
 
 <p>
-<b className='intern_1' style={{fontSize:"2rem"}}>&#8226; SDE Intern, Access Control Project (ABB-ACS_Software) - ABB</b>
+<b className='intern_1' style={{fontSize:"2.5rem"}}>&#8226; SDE Intern, Access Control Project - ABB</b>
 </p>
 <p className='proj-para'>
-Worked with the Terminal Automation Systems (TAS) team, initially learning how the team operates 
-and how databases are built and maintained for clients at ABB. Resolved client issues related to 
-existing databases, including query updates and manual updates in the database. 
+Collaborated with the Terminal Automation Systems (TAS) team, gaining insight into the team's processes and database management for clients at ABB.
+Later, gained exposure to Access Control Systems, understanding their operation and integration into the client's environment.
 </p>
 <p className='proj-para'>
-Gained an understanding of Access Control Systems, including their integration into client environments and how devices communicate with databases for authentication and authorization. Also, learned to build a UI for Access Control Systems using ASP.NET Core, React, and MS SQL Server at ABB.
+Additionally, designed a UI for Access Control Systems (Access Control Software) by exploring application development using ASP.NET Core, React, and MS SQL Server at ABB.
 </p>
+<Link to="https://drive.google.com/file/d/1bM03ZEcZIK6dcqfL_AnwbnD492XpQcRR/view?usp=sharing" className='flat-button'> CREDENTIALS </Link> 
 <br /> 
+<br /> 
+<br /> 
+<br /> 
+
 <p>
-<b className='intern_1' style={{fontSize:"2rem"}}>&#8226; Intern, EDEMY Project(Udemy clone) - Adhyayana</b>
+<b className='intern_1' style={{fontSize:"2.5rem"}}>&#8226; Full Stack Developer Intern (MERN) - Adhyayana</b>
 </p>
 <p className='proj-para'>
-During this internship, I had the privilege of contributing to the development of EDEMY, a Udemy clone. Working within a team of 5 individuals, alongside a mentor, we successfully implemented the project using the MERN (MongoDB, Express.js, React.js, Node.js) stack and AWS(S3 bucket).
+Actively learned the process of web development and its tools, then developed a Udemy Clone WebApp using the MERN stack, gaining invaluable experience in website development.
+ Utilized AWS for cloud storage (S3 Bucket), ensuring efficient data management and storage solutions, reducing data retrieval time.
 </p>
 <p className='proj-para'>
-In this role, my responsibilities included UI/UX design,frontend and AWS (S3 Bucket), allowing me to actively participate in the creation of a functional and responsive e-learning platform. Collaborating closely with a mentor provided valuable insights into effective teamwork and project management.
+Enhanced communication skills and teamwork in a professional environment that fostered growth and learning, contributing to increase in project efficiency.
 </p>
-<br/>
 <Link to="https://drive.google.com/file/d/12zIiy5R52EU05ZWDxMLcEJ3M6ahs9Fr1/view?usp=sharing" className='flat-button'> CREDENTIALS </Link>
 </div>
 <br/>
