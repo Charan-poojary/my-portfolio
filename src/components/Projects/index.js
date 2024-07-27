@@ -59,7 +59,7 @@ const Projects = () => {
 </h1>
 
 <p>
-<b className='intern_1' style={{fontSize:"2.5rem"}}>&#8226; SDE Intern, Access Control Project - ABB</b>
+<b className='intern_1' style={{fontSize:"2rem"}}>&#8226; SDE Intern, Access Control Project - ABB</b>
 </p>
 <p className='proj-para'>
 Collaborated with the Terminal Automation Systems (TAS) team, gaining insight into the team's processes and database management for clients at ABB.
@@ -75,7 +75,7 @@ Additionally, designed a UI for Access Control Systems (Access Control Software)
 <br /> 
 
 <p>
-<b className='intern_1' style={{fontSize:"2.5rem"}}>&#8226; Full Stack Developer Intern (MERN) - Adhyayana</b>
+<b className='intern_1' style={{fontSize:"2rem"}}>&#8226; Full Stack Developer Intern (MERN) - Adhyayana</b>
 </p>
 <p className='proj-para'>
 Actively learned the process of web development and its tools, then developed a Udemy Clone WebApp using the MERN stack, gaining invaluable experience in website development.
